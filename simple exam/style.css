@@ -1,0 +1,204 @@
+/* rounded corner boxes around game name and description */
+.game {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff96;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 45px 12px rgba(0,0,0,0.41);
+}
+
+/* button style for game link */
+.game a {
+    display: inline-block;
+    background-color: #b92dc9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.game a:hover {
+    background-color: #5f1067;
+}
+
+/* button styling for edit and delete buttons */
+.edit-btn, [type='submit'] {
+    display: inline-block;
+    background-color: #b92dc9;
+    color: #fff;
+    padding: 11px 17px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn:hover, [type='submit']:hover {
+    background-color: #5f1067;
+}
+
+.cancel-btn {
+    display: inline-block;
+    background-color: #b92dc9;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cancel-btn:hover {
+    background-color: #5f1067;
+}
+
+.return-btn {
+    display: inline-block;
+    background-color: #b92dc9;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.return-btn:hover {
+    background-color: #5f1067;
+}
+
+
+/* reset default browser styles */
+body, h1, h2, h3, p, ul, li, a, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c3c11a4e-961b-47ec-8f72-acebce4c4562/dgd7ll1-ddf39746-ca33-4496-9091-188ab2b79853.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MzYzExYTRlLTk2MWItNDdlYy04ZjcyLWFjZWJjZTRjNDU2MlwvZGdkN2xsMS1kZGYzOTc0Ni1jYTMzLTQ0OTYtOTA5MS0xODhhYjJiNzk4NTMucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7TzuK1FcNTBrcwPssWy7-BPsSJj9HPdBEV__tMbmg-E");
+    color: rgb(0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    line-height: 1.6;
+}
+
+/* container styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1a18185d;
+}
+
+/* header styles */
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* navigation styles */
+.navbar {
+    background-color: #b92dc9;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    color: #f1c40f;
+}
+
+/* button styles */
+.btn {
+    display: inline-block;
+    background-color: #b92dc9;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5f1067;
+}
+
+/* guide list styles */
+.guides-list {
+    list-style-type: none;
+}
+
+.guide {
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    box-shadow: 0px 0px 45px 12px rgba(0,0,0,0.41);
+    background-color: #fff9edc5;
+    border-radius: 7px;
+}
+
+.guide:hover {
+    transform: translateY(-5px);
+}
+
+.guide h3 {
+    margin-bottom: 10px;
+}
+
+.guide p {
+    margin-bottom: 10px;
+}
+
+/* form styles */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+img {
+    width: 100%;
+}
